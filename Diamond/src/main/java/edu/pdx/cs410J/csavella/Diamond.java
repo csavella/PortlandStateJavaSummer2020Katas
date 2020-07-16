@@ -1,15 +1,24 @@
 package edu.pdx.cs410J.csavella;
 
+import java.util.List;
+
 /**
  * A class for getting started with a code kata
  *
  * Use IntelliJ's "Refactor | Rename..." command to change the name of this
  * class (and its tests).
  */
-public class Kata {
-                                                                                    
+public class Diamond {
+  public Character c;
+
+  public Diamond(Character c) {
+    this.c = c;
+  }
+
+  private List<String> getText() {
+    return null;
+  }
 
   public static void main(String[] args) {
-    System.out.println("Hello world");
   }
 }
