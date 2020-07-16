@@ -15,7 +15,7 @@ public class Diamond {
     this.c = c;
   }
 
-  private List<String> getText() {
+  public List<String> getText() {
     return null;
   }
 
