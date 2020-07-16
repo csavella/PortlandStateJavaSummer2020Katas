@@ -1,5 +1,6 @@
 package edu.pdx.cs410J.csavella;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,18 @@ public class Diamond {
     this.c = c;
   }
 
-  public List<String> getText() {
+  public ArrayList<String> getText() {
+    ArrayList<String> diamondList = new ArrayList<>();
+    int asciiCode = c;
+    int asciiValue = (int)c;
+    int asciiValueA = 65;
+    int diff = asciiValue - asciiValueA;
+
+    String inner, outer;
+    for(int i = 0; i <= diff; ++i) {
+
+    }
+
     return null;
   }
 
